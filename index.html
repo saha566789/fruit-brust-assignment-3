@@ -77,7 +77,7 @@
     <main class="md:container md:mx-auto ">
         <!-- banner section -->
         <section class="mt-6">
-            <div class="carousel lg:w-[70%] lg:mx-[180px] ml-6 mr-10  md:mx-10 ">
+            <div class="carousel lg:w-[70%] lg:mx-[180px] ml-6 mr-10 w-96 md:w-[600px] md:mx-6 ">
                 <div id="slide1" class="carousel-item relative w-full" >
                   <img src="./images/banner1.png" class="w-full " />
                   <div class="absolute lg:left-52 left-16 md:left-52 lg:top-16 top-4 md:top-16 text-center text-white">
@@ -147,27 +147,27 @@
           <p class="lg:text-xs text-center lg:text-left   text-slate-400 mt-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <!-- countdown -->
-            <div class="grid grid-flow-col gap-2 text-center auto-cols-max lg:ml-2 md:ml-28 lg:mt-2 md:mt-4 mt-4">
+            <div class="grid grid-flow-col gap-2 text-center auto-cols-max lg:ml-2 md:ml-28 lg:mt-2 md:mt-4 mt-4 lg:mx-1 mx-6">
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
+                <span class="countdown font-mono lg:text-5xl text-3xl ml-10">
                   <span style="--value:29;"></span><img src="images/Frame.png" alt="">
                 </span>
                 <p class="text-xs text-slate-500 mr-3 mt-4">Days</p>
               </div> 
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
+                <span class="countdown font-mono lg:text-5xl text-3xl">
                   <span style="--value:15;" class="ml-10"></span><img src="images/Frame.png" alt="">
                 </span>
                 <p class="text-xs text-slate-500  mr-3 mt-4">Hours</p>
               </div> 
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
+                <span class="countdown font-mono lg:text-5xl text-3xl">
                   <span style="--value:25;"></span><img src="images/Frame.png" alt="">
                 </span>
                 <p class="text-xs text-slate-500  mr-3 mt-4">Minutes</p>
               </div> 
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
+                <span class="countdown font-mono lg:text-5xl text-3xl">
                   <span style="--value:8;"></span>
                 </span>
                <p class="text-xs text-slate-500  mr-3 mt-4"> Seconds</p>
@@ -562,13 +562,13 @@
             </div>
             <!-- choose us-2 end -->
              <!-- choose us-3 -->
-             <div class="lg:flex  lg:flex-row-reverse md:text-right text-center gap-2 mt-4">
+             <div class="lg:flex  lg:flex-row-reverse lg:text-right md:text-justify  text-center gap-2 mt-4">
               <div>
                 <img src="images/Group 46 (2)like.png" alt="" class="w-8 mx-auto">
                </div>
                <div class="md:text-right">
                 <h3 class="font-bold">The Benefits Only</h3>
-                  <hr class="w-[80px] mt-1 lg:ml-44 ml-24 border-black ">
+                  <hr class="w-[80px] mt-1 lg:ml-44 ml-24 md:ml-72 border-black ">
                 <p class="text-xs text-slate-400 mt-2">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
                </div>
             </div>
@@ -580,17 +580,18 @@
     </main>
     <!-- footer section -->
     <footer class="footer footer-center p-10 mt-12 bg-black text-white ">
+    
       <div class="flex">
         <img src="images/logo.png" alt="">
       <h2 class="text-4xl font-bold">Fruit Burst</h2>
       </div>
-      <div class="grid lg:grid-flow-col grid-cols-3 gap-4 text-xs">
+      <div class="grid lg:grid-flow-col grid-cols-4 gap-4 text-xs">
         <a class="link link-hover">Home</a>
         <a class="link link-hover">About us</a> 
         <a class="link link-hover">shop</a> 
         <a class="link link-hover">all fruits</a> 
-        <a class="link link-hover">Support</a> 
-        <a class="link link-hover">My Account</a>
+        <a class="link link-hover col-span-2">Support</a> 
+        <a class="link link-hover col-span-2">My Account</a>
       </div> 
       <div>
         <div class="grid grid-flow-col gap-4">
@@ -601,5 +602,6 @@
       </div> 
       
     </footer>
+   
 </body>
 </html>
